@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+
+}
+body{
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+}
+.containerr{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 150px auto;
+}
+.container{
+  background-color: hsl(0, 0%, 100%);
+  width: 250px;
+  height: 390px;
+  border-radius: 20px;
+  display: flex;
+ flex-direction: column;
+ text-align: center;
+ gap: 20px;
+ 
+ 
+}
+.qrcode{
+  width: 200px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-bottom: 1px;
+}
+
+.header{
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+ font-size: 19px;
+
+}
+.pragraph-qrbar{
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .containerr {
+    width: 90%; /* پهنای بیشتر برای گوشی */
+    padding: 10px;
+  }
+  html {
+    font-size: 14px;
+  }
+}
